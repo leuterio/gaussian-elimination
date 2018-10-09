@@ -2,7 +2,7 @@ var abs = Math.abs;
 
 function array_fill(i, n, v) {
     var a = [];
-    for (; i < n; i++) {
+    for (i=0; i < n; i++) {
         a.push(v);
     }
     return a;
